@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "tracker",
+    "slug": "tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon.webp",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "O aplicativo precisa acessar sua localização.",
+        "NSLocationAlwaysUsageDescription": "O aplicativo precisa acessar sua localização sempre.",
+        "NSPhotoLibraryUsageDescription": "O aplicativo precisa acessar a gestao de  arquivos"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#000000"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "INTERNET"
+      ],
+      "package": "com.gpstracker.tracker"
+    },
+    "web": {
+      "favicon": "./assets/adaptive-icon.webp"
+    },
+    "owner": "manassesbinga",
+    "extra": {
+      "eas": {
+        "projectId": "38932097-cdc0-419a-9fcf-3b1dcd1af873"
+      }
+    }
+  }
+}
